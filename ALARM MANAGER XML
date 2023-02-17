@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarm_Manager">
+    <EditText
+        android:id="@+id/EText"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="150sp"
+        android:layout_width="100dp"
+        android:text="time"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Start"
+        android:id="@+id/start"
+        android:layout_below="@+id/EText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150sp"
+
+        />
+
+    <Button
+        android:id="@+id/Rstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="50dp"
+        android:text="Restart"
+
+        />
+    <Button
+        android:text="Cancel"
+        android:id="@+id/Cancel"
+        android:layout_below="@+id/Rstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150sp"
+
+        />
+
+</RelativeLayout>
