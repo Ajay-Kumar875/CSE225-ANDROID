@@ -1,0 +1,3 @@
+ <receiver android:name=".AlarmManagerBroadcast" />
+ 
+ At the bottom of closing tag of activity
