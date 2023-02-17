@@ -1,3 +1,4 @@
  <receiver android:name=".AlarmManagerBroadcast" />
  
  At the bottom of closing tag of activity
+and also import the alarm mp3 into raw file 
